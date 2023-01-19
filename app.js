@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
-var csrf = require("tiny-csrf");
+const csrf = require("csurf");
+//var csrf = require("tiny-csrf");
 const bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 app.use(bodyParser.json());
