@@ -1,8 +1,8 @@
-body {
+ebody {
 font-family: sans-serif;
-background: white;
+background: blue;
 }
 
-.Todo-Item:hover .trash-icon{
+.Todo-Item:hover .delete-icon{
   display:block;
 }
